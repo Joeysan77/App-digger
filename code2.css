@@ -1,0 +1,66 @@
+@media only screen and (min-width: 600px) {
+    #isearch {
+        display: none;
+    }
+    #sub button {
+        font-size: 20px;
+        padding-bottom: 50px;
+        height: 45px;
+    }
+    #sign {
+        margin-top: 8%;
+        width: 50%;
+        margin-left: 25%;
+    }
+    #sub i {
+        font-size: 45px;
+    }
+    #sub {
+        width: 60%;
+        margin-left: 20%;
+    }
+    #im1 {
+        margin-left: 40%;
+    }
+    #f1 {
+        margin-right: 30px;
+    }
+    #f2 {
+        margin-left: 30px;
+    }
+    #pas , #env {
+        display: block;
+    }
+    #email , #pass{
+        
+    }
+    #emd {
+        width: 70%;
+        margin-left: 17%;
+    }
+    #pad {
+        width: 70%;
+        margin-left: 17%;
+    }
+    #sead {
+        width: 50%;
+        margin-left: 25%;
+    }
+    #h1 {
+        font-size: 40px;
+        margin-top: 8%;
+    }
+   #menu {
+       width: 30%;
+   }
+}
+@media only screen and (min-width: 1400px) {
+    #menu {
+        width: 20%;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    header {
+        
+    }
+}

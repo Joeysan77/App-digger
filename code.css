@@ -1,0 +1,794 @@
+html , body {
+  height: 100%;
+  width: 100%;
+    margin: 0;
+    padding: 0;
+}
+-webkit-tap-higlight-color: transparent;
+body {
+    font-family: samsung-sans;
+    font-weight: 1000;
+    transition: 0.5s;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+@font-face  {
+    font-family: 'samsung-sans';
+    src: url('/Fonts/SamsungSans-Regular.ttf');
+    
+}
+body div {
+    font-family: samsung-sans;
+}
+header {
+    background:#f3f3f3;
+    padding-top: 10px;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: samsung-sans;
+    border-radius:0px 0px 20px 20px ;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 1;
+}
+i {
+    font-size: 30px;
+   
+}
+#im1 {
+    height: 35px;
+    display: inline;
+    margin-bottom: -5px;
+    margin-left: 90px;
+    
+}
+#f2 {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: ;
+    border: 2px solid grey;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 25px;
+}
+#f1 {
+    margin-left: 10px;
+}
+#line {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background:grey;
+    width: 90%;
+    height: 2px;
+    margin-left: 5%;
+}
+button {
+    font-family: samsung-sans;
+    font-weight: 1000;
+    
+}
+#b1 {
+    padding: 10px;
+    border-radius:18px 0px 0px 18px ;
+    background: #e3eaf0;
+    transition: 0.5s;
+    flex: 1;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px 1px 0px 0px ;
+    
+}
+#b2 {
+    padding: 10px;
+    border:none;
+    border-radius:0px  ;
+    background: #e3eaf0;
+    transition: 0.5s;
+    margin-right: 0;
+    margin-left: 0;
+    flex: 1;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px 1px 0px 1px ;
+}
+#b2:hover {
+  
+}
+#b1:hover , #b2:hover , #b3:hover {
+    background: #2165ba!important;
+    color: white!important;
+    
+}
+#b3 {
+    padding: 10px;
+    border:none;
+    border-radius:0px 18px 18px 0px ;
+    background: #e3eaf0;
+    transition: 0.5s;
+    margin-right: 0;
+    flex: 1.2;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px 0px 0px 1px ;
+}
+#sub {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+#sub button {
+    height: 45px;
+    font-size: 14px;
+}
+#b4 {
+    padding: 10px;
+    border:none;
+    border-radius:18px;
+    background: #e3eaf0;
+    transition: 0.2s;
+    margin-left: 10px;
+    flex: 1;
+}
+#b4:hover {
+    background: rgb(50,50,50)!important;
+    color: white!important;
+    
+}
+#test {
+    width: 100%;
+    padding-top: 120px;
+}
+#cont {
+    width: 100%;
+    
+}
+#dark {
+    z-index: 9;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    backdrop-filter:blur(5px);
+    display: none;
+    transition: 0.5s;
+}
+
+#sead {
+    z-index: 10;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    opacity:0%;
+    transition: 0.5s;
+}
+#seai {
+    width: 90%;
+    height: 45px;
+    background: transparent;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1.5px solid grey;
+    outline: none;
+    border-radius: 24px;
+    color: white;
+    transition: 0.5s;
+    padding-right: 33px;
+    padding-left: 20px;
+}
+#isearch {
+    position: absolute;
+    margin-top: 12.5%;
+    right: 7.5%;
+    color: white;
+}
+
+#fax {
+    position: absolute;
+    right: 0;
+    margin-right: 7%;
+    font-size: 20px;
+    margin-top: 5%;
+    color: white;
+    font-size: 30px;
+}
+#h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#sign {
+    width: 80%;
+    background: transparent;
+    z-index: 9;
+    position: fixed;
+    margin-top: 15%;
+    color: white;
+    margin-left: 10%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s , 0.5s;
+}
+#p1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+}
+#seai:hover {
+    border-width: 3px;
+    padding: ;
+    border-color: #2165ba;
+    
+}
+#email {
+    width: 80%;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    border:1.5px solid grey ;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 40px;
+    transition: 0.5s;
+    font-weight: 700;
+    padding-right: 30px;
+    outline: none;
+    
+}
+#email:hover {
+    border-color:#2165ba ;
+}
+#env {
+    position: absolute;
+    margin-top: 10px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+#pass {
+        width: 80%;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    border:1.5px solid grey ;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 40px;
+    transition: 0.5s;
+    font-weight: 700;
+    padding-right: 30px;
+    outline: none;
+    margin-top: 15px;
+    
+   
+}
+#pas {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+#dnt {
+    text-align: center;
+}
+#sup {
+    background: transparent;
+    color: white;
+    width: 80%;
+    padding: 7px;
+    border: 1.5px solid grey ;
+    border-radius: 30px;
+    margin-left: 10%;
+    font-size: 25px;
+}
+#imsup {
+    display: inline;
+    margin-bottom: -3.5px;
+    margin-right: 5px;
+}
+#cont {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    justify-content: center;
+}
+#cont img {
+    height: 30px;
+    margin-left: 25px;
+    flex: 1;
+    border: 1.5px solid grey;
+    border-radius: 20px;
+    padding: 7px;
+    max-width: 30px;
+}
+#micro {
+    margin-right: 25px;
+    padding: 50pximportant!;
+}
+#glogo {
+    margin-left: 0;
+}
+#six {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    top: -15px;
+    color: white;
+}
+#log {
+    background: #2165ba;
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#menu {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    background: transparent;
+    border-style: solid;
+    border-width: 0px 1.5px 0px 0px;
+    border-radius:0px 25px 25px 0px;
+    z-index: 10;
+    border-color: grey;
+    transition:opacity 1s , left 0.5s;
+    display: none;
+    left: -100%;
+    opacity: 0;
+    overflow-y: auto;
+}
+#dax {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: white;
+}
+#pme {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#cat {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 25px;
+    background: #2165ba;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#drop-down {
+    width: 60%;
+    margin-left: 20%;
+    background: transparent;
+    text-align: center;
+}
+#drop-down button {
+    margin-top: 5px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+#drop-down button i {
+    font-size: 20px;
+    padding: 0px 10px 0px 0px;
+}
+#drop-down button:hover {
+    background: #4072ff ;
+}
+#menu button i {
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+#sof {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 25px;
+    background: #2165ba;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+#sofd {
+    width: 60%;
+    margin-left: 20%;
+    background: transparent;
+    text-align: center;
+}
+#sofd button {
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#andr {
+    background: rgba(121,194,87,0.5);
+}
+#andr:hover {
+    background: rgb(121,194,87);
+}
+#ios {
+    background: rgba(255,255,255,0.5);
+    color: black!important;
+}
+#ios:hover {
+    background: black;
+    color: white;
+}
+#windows {
+    background: rgba(0,173,239,0.5);
+    
+}
+#windows:hover {
+    background: rgb(0,173,239);
+}
+#mo {
+    background: rgba(0,0,0,0.5);
+}
+#mo:hover {
+    background: #4072ff;
+}
+#sofd button i {
+    padding: 0px 10px 0px 0px;
+}
+#set {
+    font-size: 25px;
+    width: 70%;
+    margin-left: 15%;
+    color: white;
+    border: 1.5px solid grey;
+    background: transparent;
+    border-radius: 20px;
+    padding: 7px 10px 7px 10px;
+    margin-top: 10px;
+}
+#rest button i {
+    font-size: 25px;
+    padding: 0px 10px 0px 0px;
+}
+#rest button {
+     font-size: 25px;
+    width: 70%;
+    margin-left: 15%;
+    color: white;
+    border:1.5px solid gray;
+    background: transparent;
+    border-radius: 20px;
+    padding: 7px 10px 7px 10px;
+    margin-top: 10px;
+}
+#good {
+    position: relative;
+    background: transparent;
+    overflow-y: auto;
+}
+#imhh {
+    width: 100%;
+}
+#bodyy {
+    transition: 0.5s;
+}
+#bodyy img {
+    width: 100%;
+}
+#rest button:hover {
+    background: #2165ba;
+    border-color: #2165ba;
+    transition: 0.5s;
+}
+#faq {
+    margin-bottom: 50px;
+}
+#set i {
+    margin:0px 5px 0px 5px;
+    
+}
+#settings {
+    position: fixed;
+    margin-top: 30%;
+    width: 60%;
+    margin-left: 20%;
+    padding: 10px 15px 10px 15px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    padding-bottom: 150px;
+    z-index: 15;
+    backdrop-filter:blur(5px);
+    transition: 0.5s;
+    font-family: samsungs-sans;
+    display: none;
+    transition: 0.5s;
+    opacity: 0;
+}
+#settings p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#sax {
+    color: white;
+    position: absolute;
+    font-weight: 800;
+    right: 10%;
+    
+}
+#dam {
+    width: 100%;
+    color: white;
+    text-align: left;
+    background: transparent;
+    font-size: 20px;
+    border-width:1.5px 0px 1.5px 0px;
+    border-style: solid;
+    border-color: rgb(0,0,0,0.5);
+    
+    padding: 15px 5px 15px 5px;
+}
+#chei {
+    position:absolute ;
+    top:25px;
+    right:10px;
+    font-weight:1000;
+    background-color:transparent ;
+    border-radius:30px;
+    border:4px solid;
+    font-size:20px;
+    border-color:#d3e3fd;
+    word-spacing:10px;
+    width:220px;
+    height:50px;
+    text-align:left;
+}
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  right: 0;
+  margin-top: -7px;
+  margin-right: 8px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 15px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+a {
+    -webkit-tap-highlight-color: transparent !important;
+}
+#darkk {
+    height: 100%;
+    width: 100%;
+    background:transparent;
+    z-index: 11;
+    position: fixed;
+    display: none;
+}
+#hhh {
+    color: #2165ba;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+#hhh:hover {
+    text-decoration: none;
+}
+#sigu {
+    z-index: 15;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter:blur(5px);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display:;
+    opacity:1;
+    transition: 0.5s;
+    padding-top: 25px;
+    color: white;
+}
+#sigx {
+    position: absolute;
+    top:4%;
+    color: white;
+    right: 8%;
+    }
+::selection {
+    color: white;
+    outline: 1px solid #2165ba;
+    background: #2165ba;
+    opacity: 0;
+}
+#sigp1 { 
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 750;
+}
+p:first-child {
+    font-weight: 800;
+}
+#sigp2 {
+    text-align: center;
+    
+}
+
+#simg {
+    display: inline;
+    height: 20px;
+    background: white;
+    padding:1px;
+    margin-bottom: -6px;
+    border-radius: 3.5px;
+}
+#faname , #faemail , #fapass{
+    display: block;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 30px;
+    outline: none;
+    border-width:  1.5px;
+    border-style: solid;
+    border-color: grey;
+    margin-top: 15px;
+    background: transparent;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+}
+#sigu input:hover {
+    border-color: #2165ba;
+}
+#fname {
+    width:60%;
+    margin-left: 10%;
+}
+#iname {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 9px;
+}
+#demail {
+    width: 60%;
+    margin-left: 10%;
+}
+#iemail {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 9px;
+}
+#dphone {
+    width: 60%;
+    margin-left: 10%;
+}
+#iphone {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+#dpass {
+    width: 60%;
+    margin-left: 10%;
+}
+#ipass {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+#bsign {
+    width: 80%;
+    color: white;
+    font-size: 25px;
+    font-weight: 750;
+    border: none;
+    padding-top: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 10%;
+    background: #2165ba;
+}
+#log:hover , #sup:hover , #sigu input[type = button]:hover {
+    color: black;
+    background: rgb(170 , 170 , 170);
+    transition: 0.5s;
+}
+#checkbo {
+    position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbo {
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
